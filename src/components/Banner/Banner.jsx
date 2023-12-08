@@ -2,8 +2,7 @@
 
 const Banner = () => {
     return (
-        <div className="flex justify-between items-center w-full h-[600px]
-         bg-[#032766]">
+        <div className="flex justify-between items-center w-full h-[600px]">
             <div className="w-1/2 flex justify-center items-center">
                 <h1 className="text-5xl font-bold text-white"><span className="">Hi</span>, I'm  <br />Front-end <span className="">Developer</span>.</h1>
             </div>
