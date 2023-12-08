@@ -1,0 +1,12 @@
+
+
+const AboutMe = () => {
+    return (
+        <div>
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime recusandae commodi nesciunt molestiae, corporis veritatis nobis voluptate culpa aperiam quas deleniti qui minus sint amet iure illo eligendi provident non perferendis voluptates! Veritatis culpa quia eaque eum consectetur nam, qui itaque officia. Corporis tempora esse rerum, dolorem molestiae tempore vero impedit minus odit odio cupiditate, alias facere atque in provident! Ad dolorum exercitationem voluptatibus inventore facere, blanditiis vel a, ipsa natus, corrupti fugiat quibusdam. Mollitia, consequuntur inventore fugiat quaerat hic nobis distinctio unde possimus dolor omnis suscipit, repellat quis accusamus! Quos magnam tempore sapiente praesentium eum ut provident dolor sit eveniet dolore. Inventore explicabo eveniet maxime autem ipsum hic, est libero accusamus, alias consectetur soluta ipsa! Veritatis, accusamus voluptatibus ipsa vel quis assumenda totam magnam dolores aliquam reiciendis vero voluptas suscipit mollitia quod. Maxime, accusantium exercitationem. Vel, ducimus eos voluptatum natus quod officia esse quisquam fugit cum temporibus, explicabo porro molestiae quaerat maxime corrupti quos. Eos esse ipsa odio quisquam, nesciunt rerum necessitatibus tenetur omnis pariatur nam sed dolor libero modi adipisci, veritatis explicabo molestias dolore reiciendis neque cumque perspiciatis quis minus nulla at! Illo tenetur modi fugit. Dolorum obcaecati quos voluptatum? A, placeat soluta. Reprehenderit atque ut doloribus doloremque placeat voluptatem nobis modi repellat quibusdam numquam tenetur, quia repellendus quos non laudantium? Asperiores eos dolorem cupiditate atque molestias earum ullam debitis accusamus. Ipsa consequuntur necessitatibus quaerat nisi veniam est cumque, quis et veritatis deserunt sed aspernatur sapiente a, maxime nulla ipsam! Modi temporibus eum quod laboriosam consequatur voluptatum incidunt! Quam minima quo voluptate! Officiis pariatur error, alias doloremque voluptates consequatur similique inventore asperiores quasi fugit molestiae delectus saepe illo! Aut odio fugit voluptate ex non inventore enim? Ea pariatur ipsa atque alias, temporibus labore itaque iusto accusantium sit natus cupiditate ab tenetur enim? Dolores officiis illum in velit distinctio.</p>
+        </div>
+    );
+};
+
+export default AboutMe;
