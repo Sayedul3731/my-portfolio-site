@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='bg-[#91f9e5]'>
+    <div className='bg-[#221E22] text-white'>
       <RouterProvider router={router} />
       <Footer></Footer>
     </div>

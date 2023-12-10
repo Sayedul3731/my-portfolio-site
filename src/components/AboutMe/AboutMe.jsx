@@ -4,9 +4,9 @@
 const AboutMe = () => {
     return (
         <div className="px-1">
-            <div className="card w-5/6 mx-auto bg-[#3f4531] shadow-2xl">
+            <div className="card w-5/6 mx-auto bg-[#311E2D] shadow-2xl shadow-green-600">
                 <div className="card-body">
-                    <h2 className="card-title font-semibold text-[#fff]">About Me</h2>
+                    <h2 className="text-start text-4xl my-5 font-semibold text-[#66FC03]">About Me</h2>
                     <p className="text-start text-white">
                         I'm Md Sayedul Haque who passionate front-end web developer with expertise in JavaScript, React, CSS, and HTML and also I know React framework Next.js and I have some knowledge on MongoDB, Node.js and Express.js. Committed to creating engaging and seamless user experiences. Proficient in translating design concepts into responsive and dynamic web applications. A problem-solver with a keen eye for detail, dedicated to staying updated on industry trends. Eager to contribute creativity and technical skills to innovative projects.
                     </p>
