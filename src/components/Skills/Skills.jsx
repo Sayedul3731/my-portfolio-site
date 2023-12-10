@@ -3,9 +3,9 @@
 const Skills = () => {
     return (
         <div className="px-1 w-5/6 mx-auto">
-            <div className="card bg-[#5832a8] my-10 shadow-2xl">
-                <div className="card-body">
-                    <h2 className="card-title">Skills</h2>
+            <div className="card bg-[#3f4531] my-10 shadow-2xl">
+                <div className="card-body text-white">
+                    <h2 className="card-title text-white">Skills</h2>
                     JavaScript
                     <progress className="progress progress-secondary" value="60" max="100"></progress>
                     React.js

@@ -5,12 +5,12 @@ const Navbar = () => {
 
 
     const navLinks = <>
-        <li><Link to="/" className="text-xl font-medium hover:text-white">Home</Link></li>
-        <li><Link to="/aboutMe" className="text-xl font-medium hover:text-white">About Me</Link></li>
-        <li><Link to="/skills" className="text-xl font-medium hover:text-white">Skills</Link></li>
-        <li><Link to="/projectsGallery" className="text-xl font-medium hover:text-white">Projects Gallery</Link></li>
-        <li><Link to="/blog" className="text-xl font-medium hover:text-white">Blogs</Link></li>
-        <li><Link to="/contact" className="text-xl font-medium hover:text-white">Contact</Link></li>
+        <li><Link to="/" className="text-xl font-medium hover:text-white text-black">Home</Link></li>
+        <li><Link to="/aboutMe" className="text-xl font-medium hover:text-white text-black">About Me</Link></li>
+        <li><Link to="/skills" className="text-xl font-medium hover:text-white text-black">Skills</Link></li>
+        <li><Link to="/projectsGallery" className="text-xl font-medium hover:text-white text-black">Projects Gallery</Link></li>
+        <li><Link to="/blog" className="text-xl font-medium hover:text-white text-black">Blogs</Link></li>
+        <li><Link to="/contact" className="text-xl font-medium hover:text-white text-black">Contact</Link></li>
 
     </>
     return (
