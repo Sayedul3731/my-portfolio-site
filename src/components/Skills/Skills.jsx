@@ -2,8 +2,8 @@
 
 const Skills = () => {
     return (
-        <div className="px-1">
-            <div className="card lg:w-[450px] bg-[#0590fa] shadow-2xl">
+        <div className="px-1 w-5/6 mx-auto">
+            <div className="card bg-[#5832a8] my-10 shadow-2xl">
                 <div className="card-body">
                     <h2 className="card-title">Skills</h2>
                     JavaScript

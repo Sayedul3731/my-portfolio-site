@@ -8,13 +8,11 @@ import ProjectsGallery from "../ProjectsGallery/ProjectsGallery";
 
 const Home = () => {
     return (
-        <div className="w-full mx-auto font-font-family">
+        <div className="max-w-7xl mx-auto font-font-family">
             <Navbar></Navbar>
             <Banner></Banner>
-            <div className=" my-10 flex flex-col lg:flex-row md:px-1 lg:px-0 justify-center items-center gap-10">
-                <Link to='/aboutMe'> <AboutMe></AboutMe> </Link>
-                <Link to="/skills"> <Skills></Skills> </Link>
-            </div>
+            <Link to='/aboutMe'> <AboutMe></AboutMe> </Link>
+            <Link to="/skills"> <Skills></Skills> </Link>
             <ProjectsGallery></ProjectsGallery>
         </div>
     );

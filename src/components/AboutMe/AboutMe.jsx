@@ -4,7 +4,7 @@
 const AboutMe = () => {
     return (
         <div className="px-1">
-            <div className="card lg:w-[450px] bg-[#0590fa] shadow-2xl">
+            <div className="card w-5/6 mx-auto bg-[#5832a8] shadow-2xl">
                 <div className="card-body">
                     <h2 className="card-title font-semibold text-[#fff]">About Me</h2>
                     <p className="text-start">
