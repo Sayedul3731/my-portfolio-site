@@ -7,6 +7,7 @@ import Skills from "../Pages/Skills/Skills";
 import ProjectsGallery from "../Pages/ProjectsGallery/ProjectsGallery";
 import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
+import Projects from "../components/Projects/Projects";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
     {
       path: "/projectsGallery",
       element: <ProjectsGallery></ProjectsGallery>
+    },
+    {
+      path: "/projects",
+      element: <Projects></Projects>
     },
     {
       path: "/blog",
