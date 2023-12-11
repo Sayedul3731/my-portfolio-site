@@ -5,6 +5,7 @@ import Skills from "../../components/Skills/Skills";
 import ProjectsGallery from "../ProjectsGallery/ProjectsGallery";
 import Navbar from "../../components/Navbar/Navbar";
 import DownloadPdf from "../../components/DownloadPdf/DownloadPdf";
+import Experiences from "../../components/Experiences/Experiences";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <DownloadPdf></DownloadPdf>
             <Link to='/aboutMe'> <AboutMe></AboutMe> </Link>
             <Link to="/skills"> <Skills></Skills> </Link>
+            <Experiences></Experiences>
             <ProjectsGallery></ProjectsGallery>
         </div>
     );
