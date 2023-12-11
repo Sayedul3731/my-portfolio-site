@@ -11,10 +11,9 @@ const Navbar = () => {
         <li><Link to="/projectsGallery" className="text-xl font-medium hover:text-white ">Projects Gallery</Link></li>
         <li><Link to="/blog" className="text-xl font-medium hover:text-white ">Blogs</Link></li>
         <li><Link to="/contact" className="text-xl font-medium hover:text-white ">Contact</Link></li>
-
     </>
     return (
-        <div className="navbar py-5 md:text-white">
+        <div className="navbar py-5 pr-[630px] md:text-white fixed z-10 bg-[#221E22]">
             <div className="navbar-start md:w-0">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
