@@ -10,7 +10,7 @@ const Projects = () => {
     return (
      <div className="max-w-7xl mx-auto">
         <Navbar></Navbar>
-           <div className="max-w-7xl mx-auto flex flex-col justify-center mb-32 items-center min-h-screen ">
+           <div className="max-w-7xl mx-auto flex flex-col justify-center mb-32 items-center min-h-screen pt-10 md:pt-0 ">
             <h1 className="text-3xl md:text-5xl font-bold mt-20 md:mt-24 lg:mt-32 mb-16 px-5 py-2 rounded-xl shadow-xl shadow-green-600 bg-[#311E2D] text-[#66FC03]">Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-1 lg:px-0 gap-5 lg:gap-8 md:px-4">
                 <a href="https://hostel-management-9654d.web.app/" target="blank">

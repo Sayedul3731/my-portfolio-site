@@ -9,7 +9,6 @@ const Navbar = () => {
         <li><Link to="/aboutMe" className="text-xl font-medium hover:text-white ">About Me</Link></li>
         <li><Link to="/skills" className="text-xl font-medium hover:text-white ">Skills</Link></li>
         <li><Link to="/projects" className="text-xl font-medium hover:text-white ">Projects</Link></li>
-        <li><Link to="/blog" className="text-xl font-medium hover:text-white ">Blogs</Link></li>
         <li><Link to="/contact" className="text-xl font-medium hover:text-white ">Contact</Link></li>
     </>
     return (

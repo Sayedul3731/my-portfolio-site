@@ -12,6 +12,8 @@ const Skills = () => {
                     <progress className="progress progress-success" value="65" max="100"></progress>
                     Next.js
                     <progress className="progress progress-success" value="42" max="100"></progress>
+                    Tailwind CSS
+                    <progress className="progress progress-success" value="85" max="100"></progress>
                     CSS
                     <progress className="progress progress-success" value="55" max="100"></progress>
                     HTML

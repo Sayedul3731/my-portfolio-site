@@ -1,32 +1,35 @@
-import { Link } from "react-router-dom";
+import Navbar from "../../components/Navbar/Navbar";
+
 
 
 const Skills = () => {
     return (
-        <div className="min-h-screen py-10">
-              <div className="card w-5/6 mx-auto bg-[#5832a8] shadow-2xl">
-                <div className="card-body">
-                    <h2 className="card-title">Skills</h2>
-                    JavaScript
-                    <progress className="progress progress-secondary" value="60" max="100"></progress>
-                    React.js
-                    <progress className="progress progress-secondary" value="65" max="100"></progress>
-                    Next.js
-                    <progress className="progress progress-secondary" value="42" max="100"></progress>
-                    CSS
-                    <progress className="progress progress-secondary" value="55" max="100"></progress>
-                    HTML
-                    <progress className="progress progress-secondary" value="85" max="100"></progress>
-                    MongoDB
-                    <progress className="progress progress-secondary" value="40" max="100"></progress>
-                    Express.js
-                    <progress className="progress progress-secondary" value="45" max="100"></progress>
-                    Node.js
-                    <progress className="progress progress-secondary" value="42" max="100"></progress>
+        <div className="max-w-7xl mx-auto">
+            <Navbar></Navbar>
+            <div className="px-1 w-5/6 mx-auto min-h-screen pt-40">
+                <div className="card bg-[#311E2D] shadow-2xl shadow-green-600">
+                    <div className="card-body text-white">
+                        <h2 className="card-title text-4xl my-5 text-[#66FC03]">Skills</h2>
+                        JavaScript
+                        <progress className="progress progress-success" value="60" max="100"></progress>
+                        React.js
+                        <progress className="progress progress-success" value="65" max="100"></progress>
+                        CSS
+                        <progress className="progress progress-success" value="55" max="100"></progress>
+                        Tailwind CSS
+                        <progress className="progress progress-success" value="85" max="100"></progress>
+                        Next.js
+                        <progress className="progress progress-success" value="42" max="100"></progress>
+                        HTML
+                        <progress className="progress progress-success" value="85" max="100"></progress>
+                        MongoDB
+                        <progress className="progress progress-success" value="40" max="100"></progress>
+                        Express.js
+                        <progress className="progress progress-success" value="45" max="100"></progress>
+                        Node.js
+                        <progress className="progress progress-success" value="42" max="100"></progress>
+                    </div>
                 </div>
-            </div>
-            <div className=" flex justify-end mx-auto w-5/6 mt-[100px]">
-                <Link to="/"><button className="bg-red-500 px-10 py-3 font-bold rounded-sm text-xl">Go Home</button></Link>
             </div>
         </div>
     );
