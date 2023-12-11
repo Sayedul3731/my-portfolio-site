@@ -20,8 +20,8 @@ export const Contact = () => {
 
      <div className='max-w-7xl mx-auto'>
         <Navbar></Navbar>
-           <div className='pt-40 pb-60 flex flex-col justify-center items-center'>
-            <h1 className='text-4xl font-bold mb-20 '>Contact With Me</h1>
+           <div className='py-20 px-2 md:px-5 md:pt-24 lg:pt-40  lg:pb-60 flex flex-col justify-center items-center'>
+            <h1 className='text-3xl md:text-4xl font-bold mb-10 md:mb-16 lg:mb-20 '>Contact With Me</h1>
             <div className='bg-[#311E2D] p-10 shadow-md shadow-green-600'>
             <form ref={form} onSubmit={sendEmail}>
                 <label>Your Name</label>
