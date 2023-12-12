@@ -5,15 +5,29 @@ import technologyImg from "../../assets/technology.jpg"
 import eventImg from "../../assets/Corporate.webp"
 import donationImg from "../../assets/donation.jpg"
 import flowerImg from "../../assets/flower.jpg"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+  
 
 
 const ProjectsGallery = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 3000
+        })
+    }, [])
     return (
         <div className="max-w-7xl mx-auto flex flex-col justify-center mb-32 items-center min-h-screen ">
-            <h1 className="text-3xl md:text-5xl font-bold mt-20 md:mt-24 lg:mt-32 mb-16 px-5 py-2 rounded-xl shadow-xl shadow-green-600 bg-[#311E2D] text-[#66FC03]">Projects Gallery</h1>
-            <p className="mb-8">If you want to see live project or details so just <span className="text-[#66FC2d]">click</span> on each projects card.</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-1 lg:px-0 gap-5 lg:gap-8 md:px-4">
+            <h1
+            data-aos="flip-right"
+            className="text-3xl md:text-5xl font-bold mt-20 md:mt-24 lg:mt-32 mb-16 px-5 py-2 rounded-xl shadow-xl shadow-green-600 bg-[#311E2D] text-[#66FC03]">Projects Gallery</h1>
+            <p
+            data-aos="fade-right"
+            className="mb-8">If you want to see live project or details so just <span className="text-[#66FC2d]">click</span> on each projects card.</p>
+            <div
+            data-aos="zoom-in"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-1 lg:px-0 gap-5 lg:gap-8 md:px-4">
                 <a href="https://hostel-management-9654d.web.app/" target="blank">
                     <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[530px] mb-8 md:mb-5 lg:mb-0">
                         <div className="p-4">

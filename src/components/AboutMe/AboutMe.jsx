@@ -1,10 +1,20 @@
 /* eslint-disable react/no-unescaped-entities */
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 const AboutMe = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 3000
+        })
+    }, [])
     return (
         <div className="px-1">
-            <div className="card w-5/6 mx-auto bg-[#311E2D] shadow-2xl shadow-green-600">
+            <div
+            data-aos="fade-right"
+            className="card w-5/6 mx-auto bg-[#311E2D] shadow-2xl shadow-green-600">
                 <div className="card-body">
                     <h2 className="text-start text-4xl my-5 font-semibold text-[#66FC03]">About Me</h2>
                     <p className="text-start text-white">

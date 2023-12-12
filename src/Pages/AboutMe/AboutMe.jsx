@@ -4,13 +4,24 @@ import { FaArrowRight } from "react-icons/fa";
 
 import Navbar from "../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+ 
 
 
 const AboutMe = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 3000
+        })
+    }, [])
     return (
         <div className="max-w-7xl mx-auto pb-32 md:pb-0">
             <Navbar></Navbar>
-            <div className="w-5/6 mx-auto pt-40 ">
+            <div
+            data-aos="zoom-in"
+            className="w-5/6 mx-auto pt-40 ">
                 <div className="card bg-[#311E2D] shadow-2xl shadow-green-600">
                     <div className="card-body">
                         <h2 className="text-start text-4xl my-5 font-semibold text-[#66FC03]">About Me</h2>
@@ -21,7 +32,9 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className="w-5/6 flex flex-col  md:flex-col lg:flex-row my-14 justify-center items-center mx-auto gap-5">
-                <div className="w-full lg:w-1/2 h-[400px] flex justify-center items-center">
+                <div
+                data-aos="fade-right"
+                className="w-full lg:w-1/2 h-[400px] flex justify-center items-center">
                     <div className="card mx-auto w-full h-[380px] bg-[#311E2D] shadow-2xl shadow-green-600">
                         <div className="card-body">
                             <h2 className="text-start text-4xl my-5 font-semibold text-[#66FC03]">Education</h2>
@@ -40,7 +53,9 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-                <div className="px-1 w-full lg:w-1/2 h-[400px] flex justify-center items-center">
+                <div
+                data-aos="fade-left"
+                className="px-1 w-full lg:w-1/2 h-[400px] flex justify-center items-center">
                     <div className="card mx-auto h-[480px] mt-32 md:mt-0 md:h-[380px] bg-[#311E2D] shadow-2xl shadow-green-600">
                         <div className="card-body">
                             <h2 className="text-start text-4xl my-5 font-semibold text-[#66FC03]">Experiences</h2>
