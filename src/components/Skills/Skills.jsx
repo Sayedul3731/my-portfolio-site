@@ -26,6 +26,8 @@ const Skills = () => {
                     <progress className="progress progress-success" value="85" max="100"></progress>
                     CSS
                     <progress className="progress progress-success" value="55" max="100"></progress>
+                    Bootstrap
+                    <progress className="progress progress-success" value="60" max="100"></progress>
                     HTML
                     <progress className="progress progress-success" value="85" max="100"></progress>
                     MongoDB

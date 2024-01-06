@@ -13,7 +13,7 @@ const AboutMe = () => {
     return (
         <div className="px-1">
             <div
-            data-aos="fade-right"
+            data-aos="zoom-in"
             className="card w-5/6 mx-auto bg-[#311E2D] shadow-2xl shadow-green-600">
                 <div className="card-body">
                     <h2 className="text-start text-4xl my-5 font-semibold text-[#66FC03]">About Me</h2>

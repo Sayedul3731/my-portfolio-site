@@ -23,13 +23,13 @@ const ProjectsGallery = () => {
             data-aos="flip-right"
             className="text-3xl md:text-5xl font-bold mt-20 md:mt-24 lg:mt-32 mb-16 px-5 py-2 rounded-xl shadow-xl shadow-green-600 bg-[#311E2D] text-[#66FC03]">Projects Gallery</h1>
             <p
-            data-aos="fade-right"
-            className="mb-8">If you want to see live project or details so just <span className="text-[#66FC2d]">click</span> on each projects card.</p>
+            data-aos="zoom-in"
+            className="mb-8 text-center">If you want to see live project or details so just <span className="text-[#66FC2d]">click</span> on each projects card.</p>
             <div
             data-aos="zoom-in"
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-1 lg:px-0 gap-5 lg:gap-8 md:px-4">
                 <a href="https://hostel-management-9654d.web.app/" target="blank">
-                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[530px] mb-8 md:mb-5 lg:mb-0">
+                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[550px] mb-8 md:mb-5 lg:mb-0">
                         <div className="p-4">
                             <img src={hostelImg} className="rounded-xl h-[250px] object-cover w-full" alt="" />
                             <h2 className="text-3xl font-semibold my-2">Hostel Management</h2>
@@ -38,7 +38,7 @@ const ProjectsGallery = () => {
                     </div>
                 </a>
                 <a href="https://job-finder-hub.web.app/" target="blank">
-                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[530px] mb-8 md:mb-0">
+                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[550px] mb-8 md:mb-0">
                         <div className="p-4">
                             <img src={JobImg} className="rounded-xl h-[250px] object-cover w-full" alt="" />
                             <h2 className="text-3xl font-semibold my-2">Job Finder Hub</h2>
@@ -47,16 +47,16 @@ const ProjectsGallery = () => {
                     </div>
                 </a>
                 <a href="https://techno-and-electro-client.web.app/" target="blank">
-                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[530px] mb-8 md:mb-5 lg:mb-0">
+                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[550px] mb-8 md:mb-5 lg:mb-0">
                         <div className="p-4">
                             <img src={technologyImg} className="rounded-xl h-[250px] object-cover w-full" alt="" />
-                            <h2 className="text-3xl font-semibold my-2">Technology & Electronics e-commerce site </h2>
+                            <h2 className="text-3xl font-semibold my-2">Technology & Electronics </h2>
                             <p>This is a Technology and Electronics e-commerce site. User can see and buy products. I used some technology in this project such as JavaScript as programming language. React.js, Tailwind css, DaisyUI as front-end and mongodb, express.js, node.js as backend. If you want to see details please click on this card.</p>
                         </div>
                     </div>
                 </a>
                 <a href="https://corporate-event-manageme-92f84.web.app/" target="blank">
-                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[530px] mb-8 md:mb-0">
+                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[550px] mb-8 md:mb-0">
                         <div className="p-4">
                             <img src={eventImg} className="rounded-xl h-[250px] object-cover w-full" alt="" />
                             <h2 className="text-3xl font-semibold my-2">Corporate Event Management</h2>
@@ -65,7 +65,7 @@ const ProjectsGallery = () => {
                     </div>
                 </a>
                 <a href="https://roasted-honey.surge.sh/" target="blank">
-                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[530px] mb-8 md:mb-0">
+                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[550px] mb-8 md:mb-0">
                         <div className="p-4">
                             <img src={donationImg} className="rounded-xl h-[250px] object-cover w-full" alt="" />
                             <h2 className="text-3xl font-semibold my-2">Donation Campaign</h2>
@@ -74,7 +74,7 @@ const ProjectsGallery = () => {
                     </div>
                 </a>
                 <a href="https://sayedul3731.github.io/my-first-assignment-website/" target="blank">
-                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[530px] mb-8 md:mb-0">
+                    <div className="card bg-[#311E2D] shadow-2xl shadow-green-600 h-[550px] mb-8 md:mb-0">
                         <div className="p-4">
                             <img src={flowerImg} className="rounded-xl h-[250px] object-cover w-full" alt="" />
                             <h2 className="text-3xl font-semibold my-2">Flower Shop</h2>
