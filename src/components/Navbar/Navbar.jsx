@@ -6,9 +6,10 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><Link to="/" className="text-xl font-medium hover:text-white hover:bg-[#66FC03] hover:text-black ">Home</Link></li>
-        <li><Link to="/aboutMe" className="text-xl font-medium hover:text-white  hover:bg-[#66FC03] hover:text-black">About Me</Link></li>
-        <li><Link to="/skills" className="text-xl font-medium hover:text-white  hover:bg-[#66FC03] hover:text-black">Skills</Link></li>
-        <li><Link to="/projects" className="text-xl font-medium hover:text-white hover:bg-[#66FC03] hover:text-black ">Projects</Link></li>
+        <li><a href="#aboutMe" className="text-xl font-medium hover:text-white  hover:bg-[#66FC03] hover:text-black">About Me</a></li>
+        <li><a href="#skills" className="text-xl font-medium hover:text-white  hover:bg-[#66FC03] hover:text-black">Skills</a></li>
+        <li><a href="#experience"  className="text-xl font-medium hover:text-white hover:bg-[#66FC03] hover:text-black ">Experience</a></li>
+        <li><a href="#gallery" className="text-xl font-medium hover:text-white hover:bg-[#66FC03] hover:text-black ">Projects</a></li>
         <li><Link to="/contact" className="text-xl font-medium hover:text-white hover:bg-[#66FC03] hover:text-black ">Contact</Link></li>
     </>
     return (

@@ -16,8 +16,12 @@ const Home = () => {
             <DownloadPdf></DownloadPdf>
             <Link to='/aboutMe'> <AboutMe></AboutMe> </Link>
             <Link to="/skills"> <Skills></Skills> </Link>
-            <Experiences></Experiences>
-            <ProjectsGallery></ProjectsGallery>
+            <div id="experience">
+                <Experiences></Experiences>
+            </div>
+            <div id="gallery">
+                <ProjectsGallery></ProjectsGallery>
+            </div>
         </div>
     );
 };

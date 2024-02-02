@@ -11,6 +11,7 @@ const Skills = () => {
     }, [])
     return (
         <div 
+        id='skills'
         data-aos="zoom-in"
         className="px-1 w-5/6 mx-auto">
             <div className="card bg-[#311E2D] mt-20 shadow-2xl shadow-green-600">
