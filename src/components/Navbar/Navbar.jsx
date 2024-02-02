@@ -10,7 +10,7 @@ const Navbar = () => {
         <li><a href="#skills" className="text-xl font-medium hover:text-white  hover:bg-[#66FC03] hover:text-black">Skills</a></li>
         <li><a href="#experience"  className="text-xl font-medium hover:text-white hover:bg-[#66FC03] hover:text-black ">Experience</a></li>
         <li><a href="#gallery" className="text-xl font-medium hover:text-white hover:bg-[#66FC03] hover:text-black ">Projects</a></li>
-        <li><Link to="/contact" className="text-xl font-medium hover:text-white hover:bg-[#66FC03] hover:text-black ">Contact</Link></li>
+        <li><a href="#contact" className="text-xl font-medium hover:text-white hover:bg-[#66FC03] hover:text-black ">Contact</a></li>
     </>
     return (
         <div className="navbar py-5 pr-[630px] md:text-white fixed z-10 bg-[#221E22]">

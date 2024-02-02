@@ -13,7 +13,7 @@ const Skills = () => {
         <div 
         id='skills'
         data-aos="zoom-in"
-        className="px-1 w-5/6 mx-auto">
+        className="px-1 pt-32 w-5/6 mx-auto">
             <div className="card bg-[#311E2D] mt-20 shadow-2xl shadow-green-600">
                 <div className="card-body text-white">
                     <h2 className="card-title text-4xl my-5 text-[#66FC03]">Skills</h2>

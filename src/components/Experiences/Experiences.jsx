@@ -13,7 +13,7 @@ const Experiences = () => {
     return (
         <div
         data-aos="zoom-out"
-        className="px-1">
+        className="px-1 pt-20">
             <div className="card w-5/6 mx-auto mt-20 bg-[#311E2D] shadow-2xl shadow-green-600">
                 <div className="card-body">
                     <h2 className="text-start text-4xl my-5 font-semibold text-[#66FC03]">Experiences</h2>

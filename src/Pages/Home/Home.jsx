@@ -6,6 +6,7 @@ import ProjectsGallery from "../ProjectsGallery/ProjectsGallery";
 import Navbar from "../../components/Navbar/Navbar";
 import DownloadPdf from "../../components/DownloadPdf/DownloadPdf";
 import Experiences from "../../components/Experiences/Experiences";
+import Contact from "../Contact/Contact";
 
 
 const Home = () => {
@@ -21,6 +22,9 @@ const Home = () => {
             </div>
             <div id="gallery">
                 <ProjectsGallery></ProjectsGallery>
+            </div>
+            <div id="contact">
+                <Contact></Contact>
             </div>
         </div>
     );

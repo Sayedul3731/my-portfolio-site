@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Navbar from '../../components/Navbar/Navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -28,8 +27,7 @@ export const Contact = () => {
     return (
 
      <div className='max-w-7xl mx-auto'>
-        <Navbar></Navbar>
-           <div className='py-20 px-2 md:px-5 md:pt-24 lg:pt-40  lg:pb-60 flex flex-col justify-center items-center'>
+           <div className='pt-32  px-2 md:px-5 md:pt-24 lg:pt-40  lg:pb-60 flex flex-col justify-center items-center'>
             <h1
             data-aos="flip-left"
             className='text-3xl md:text-4xl font-bold mb-10 md:mb-16 lg:mb-20 '>Contact With Me</h1>
